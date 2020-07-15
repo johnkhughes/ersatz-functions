@@ -1,0 +1,18 @@
+{
+    "name": "jkhughes/ersatz-functions",
+    "description": "PHP and WordPress functions",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Hughes",
+            "email": "john@castlegateit.co.uk"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "functions.php",
+            "wordpress.php"
+        ]
+    }
+}
