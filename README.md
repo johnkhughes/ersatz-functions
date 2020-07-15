@@ -1,6 +1,8 @@
 # Ersatz Functions
 
-Basic PHP and WordPress functions.
+Basic PHP and WordPress functions. Install with Composer:
+
+    composer require jkhughes/ersatz-functions
 
 ## Functions
 
