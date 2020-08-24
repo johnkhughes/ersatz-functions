@@ -27,7 +27,7 @@ function nested($object, ...$keys)
     }
 
     $object = (object) $object;
-    $key = array_shift($keys);
+    $key = (string) array_shift($keys);
     $function = __FUNCTION__;
 
     if (!property_exists($object, $key)) {
